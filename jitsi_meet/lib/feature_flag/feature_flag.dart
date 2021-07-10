@@ -10,7 +10,7 @@ class FeatureFlag {
   bool? closeCaptionsEnabled;
   bool? conferenceTimerEnabled;
   bool? chatEnabled;
-  bool? inviteEnabled;
+//   bool? inviteEnabled;
   bool? iOSRecordingEnabled;
   bool? kickOutEnabled;
   bool? liveStreamingEnabled;
@@ -73,9 +73,9 @@ class FeatureFlag {
       featureFlags[FeatureFlagHelper
           .featureFlags[FeatureFlagEnum.CHAT_ENABLED]] = chatEnabled;
 
-    if (inviteEnabled != null)
-      featureFlags[FeatureFlagHelper
-          .featureFlags[FeatureFlagEnum.INVITE_ENABLED]] = inviteEnabled;
+//     if (inviteEnabled != null)
+//       featureFlags[FeatureFlagHelper
+//           .featureFlags[FeatureFlagEnum.INVITE_ENABLED]] = inviteEnabled;
 
     if (iOSRecordingEnabled != null)
       featureFlags[FeatureFlagHelper
